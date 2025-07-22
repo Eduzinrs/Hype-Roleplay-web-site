@@ -216,3 +216,15 @@ nav a:hover {
         transform: translateY(-0%) rotate(-8deg);
     }
 }
+
+/* Responsivo */
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    background: #333;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    width: 150px;
+  }
